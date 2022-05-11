@@ -143,13 +143,14 @@ h1 {
 
 .socials {
     position: fixed;
-    width: 100%;
+    width: fit-content;
     /* outline: 1px solid red; */
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(0, 0, 0, .7);
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: rgb(0, 0, 0, .75);
     padding: .4rem;
+    border-radius: 0 0 60px 0;
     z-index: 1;
 }.socials ul {
     list-style: none;
@@ -157,9 +158,9 @@ h1 {
     padding: 0;
 }.socials ul li {
     display: inline-block;
-    margin: 0 2em 0 2em;
+    margin: 0 1rem 0 1rem;
 }.socials ul li img {
-    filter: invert(1);
+    /* filter: invert(1); */
     max-width: 2rem;
 }
 
@@ -345,8 +346,8 @@ a:hover {
     }
 
     .name {
-        font-size: .6rem;
-        top: 75%;
+        font-size: .65rem;
+        top: 80%;
     }
     .hash {
         /* outline: 1px solid red; */
